@@ -13,10 +13,10 @@ ENV TIMEZONE=Europe/Berlin \
     COMMUNITY_SERVER=true \
     PUBLIC_IP=10.0.0.1 \
     PUBLIC_PORT=8211 \
-    SERVER_NAME=jammsen-docker-generated-###RANDOM### \
-    SERVER_DESCRIPTION="Palworld-Dedicated-Server running in Docker by jammsen" \
-    SERVER_PASSWORD=serverPasswordHere \
-    ADMIN_PASSWORD=adminPasswordHere
+    SERVER_NAME=DMR-Palworld \
+    SERVER_DESCRIPTION="Palworld-Dedicated-Server DRM" \
+    SERVER_PASSWORD=helloworld \
+    ADMIN_PASSWORD=helloworldAdmin
 
 
 VOLUME [ "/palworld" ]
